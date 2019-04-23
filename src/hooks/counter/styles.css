@@ -1,0 +1,33 @@
+.counter {
+  font-size: 4em;
+  display: block;
+  color: #f2ef9b;
+}
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  min-width: 200px;
+  outline: none;
+  border: none;
+  margin: 0 10px;
+  border-radius: 4px;
+}
+
+.btn-container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+}
+.btn-counter {
+  background: #3aad59;
+}
+
+.btn-clear {
+  background: #d64933;
+}
+
+button[disabled] {
+  background: #aaa;
+  cursor: not-allowed;
+  color: #666;
+}
